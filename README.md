@@ -30,16 +30,19 @@ This project contains UI and API automation tests developed using **Playwright T
 ## Setup
 
 1. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 2. **Install Playwright browsers:**
+
    ```bash
    npx playwright install
    ```
 
 3. **Configure Environment Variables:**
+
    Create a `.env` file in the project root and add the required credentials:
    ```env
    DEMOQA_USERNAME=your_demoqa_username
