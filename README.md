@@ -26,6 +26,8 @@ This project contains UI and API automation tests developed using **Playwright T
 ├── playwright.config.js
 ├── .env.example
 └── package.json
+```
+
 
 ## Setup
 
