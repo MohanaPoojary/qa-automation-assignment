@@ -32,10 +32,10 @@ test('should search and validate a book in Book Store', async ({ page, homePage,
   // search book
   await bookstorePage.searchBook(bookstoreData.searchBook);
   
-  // TODO: validate result
+  // validate result
   await expect(bookstorePage.getBook(bookstoreData.searchBook)).toBeVisible();
 
-  // TODO: extract book details
+  // extract book details
   const bookDetails = await bookstorePage.getBookDetails(bookstoreData.searchBook);
 
   // write details to file
