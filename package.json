@@ -1,0 +1,27 @@
+{
+  "name": "qa-automation-assignment",
+  "version": "1.0.0",
+  "description": "UI and API automation assignment using Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "javascript",
+    "automation",
+    "qa"
+  ],
+  "author": "Mohan Poojary",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^17.2.2"
+  }
+}
