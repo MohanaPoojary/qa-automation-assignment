@@ -16,7 +16,7 @@ test('should search and validate a book in Book Store', async ({ page, homePage,
   await loginPage.login(
   process.env.DEMOQA_USERNAME,
   process.env.DEMOQA_PASSWORD
-);
+  );
 
   // Validate username
   await expect(loginPage.loggedInUsername).toHaveText(
